@@ -1,0 +1,157 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.primeira-section {
+    height: 700px;
+    background-image: url('https://images01.nicepage.com/7d/49/7d49b53f35a91fd08931b8dfa9ae7ac9.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.titulo {
+    font-size: 9em;
+}
+
+#titulo {
+    display: none;
+}
+
+#carro {
+    display: none;
+    position:absolute; 
+    left: -100px;
+}
+
+#texto-carro {
+    display: none;
+}
+
+.logo-primeira-section {
+    left: 235px;
+}
+
+
+.segunda-section {
+    height: 350px;
+    background-image: linear-gradient(#1c2122, #748284);
+}
+
+.terceira-section {
+    background-color: #748284;
+    height: 430px;
+}
+
+.fas {
+    font-size: 6em;
+}
+
+.display-none {
+    display: none ;
+}
+
+#primeiro {
+    display: none;
+}
+
+#segundo {
+    display: none;
+}
+
+#terceiro {
+    display: none;
+}
+@media (max-width: 320px) {
+    .titulo {
+        font-size: 5em;
+    }
+
+    #carro {
+        height: 90px;
+    }
+
+    #texto-carro {
+        margin-top: 130px;
+        text-align: center !important;
+    }
+
+    .terceira-section {
+        height: 900px;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 321px){
+    .titulo {
+        font-size: 5em;
+    }
+
+    #carro {
+        height: 120px;
+    }
+
+    #texto-carro {
+        margin-top: 130px;
+        text-align: center !important;
+    }
+
+    .terceira-section {
+        height: 900px;
+    }
+}
+
+@media (max-width: 576px) and (min-width:  376px) {
+
+    .titulo {
+        font-size: 5em;
+    }
+
+    #carro {
+        height: 150px;
+    }
+
+    #texto-carro {
+        margin-top: 130px;
+        text-align: center !important;
+    }
+
+    .terceira-section {
+        height: 900px;
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+    .primeira-section {
+        padding-top: 30px;
+    }
+
+    #texto-carro {
+        margin-top: 230px;
+        text-align: center !important;
+    }
+
+    .segunda-section {
+        height: 450px;
+    }
+
+    .terceira-section {
+        height: 900px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+   
+    
+    
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+    .primeira-section {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 1201px) {
+    
+}
