@@ -62,6 +62,39 @@ body{
 #terceiro {
     display: none;
 }
+
+.quarta-section {
+    height: 600px;
+    text-align: center;
+}
+
+.bg-imagem-quarta-section {
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/b9df833743ec511aaf30c26e/pexelsphoto3874342.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.titulo-quarta-section {
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    padding-top: 170px;
+}
+
+.subtitulo-quarta-section {
+    color: white;
+    font-size: 1.3em;
+}
+
+.button-quarta-section {
+    font-size: 1.3em;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 45px 15px 45px;
+    cursor: pointer;
+}
+
 @media (max-width: 320px) {
     .titulo {
         font-size: 5em;
